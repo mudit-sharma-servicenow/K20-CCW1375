@@ -86,10 +86,15 @@ You now have 2 projects created in the workspace.
 You can go to your other project, app1 and carry out similar exercise.
 To switch to project app1, click on application picker at far right end of toolbar. It would show app2 as this is the current selected application.
 
-## Exercise 5: Run background script  ##
-#Objective : Demonstrate ability to run global and scope level background script#
+## Exercise 5: Run background scripts ##
+#Objective : Demonstrate ability to run global and scope level background scripts#
 
-<< Shasank please complete this >>
+1. Open a script file, say a Client Script.
+3. Type some script, like, 
+gs.log("Hello Background Scripts");
+2. Select the above script.
+3. Right click on the selection and choose Run Background Script - Global / Current from the context menu.
+4. The execution result will display in a separate tab titled 'Background script output'.
 
 
 ## Exercise 6: Compare a file to server ##
@@ -100,15 +105,22 @@ To switch to project app1, click on application picker at far right end of toolb
 3. Right click on the file name and select “Compare With Server”
 
 
-##Exercise 7: Autocomplete##
+## Exercise 7: Autocomplete##
 #Objective: Demonstrate intellisense for JS and Jelly APIs.#
 #			Demonstrate snippets (shortcuts)#
 Advanced: Additional ServiceNow snippets from table ’Syntax Editor Macros’ are also supported.
 Exercise: Add a new entry to Syntax Editor Macro Table and see if it reflects in extension snippets
 
-##Exercise 8: Linting##
+## Exercise 8: Linting##
 #Objective : Demonstrate that linting rules specified in platform are applied in extension.#
 
-Make syntax errors and see they are highlighted accordingly
+Make syntax errors and see they are highlighted accordingly.
 
-##Exercise 9 : Enable verbose logging from Settings page << Shasank please complete this >> ##
+## Exercise 9 : Enable verbose logging ##
+#Objective : Demonstrate verbose logging feature of the extension for debugging purposes#
+1. By default, verbose logging is disabled.
+2. Navigate to Code (Mac) or File (Windows) > Preferences > Settings > Extensions > Now.
+3. Select 'Enable verbose logging' checkbox.
+4. Verbose logging is now enabled
+4. Now go to Help > Toggle Developer Tools
+5. Observe deytailed logs when an action is performed.
